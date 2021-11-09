@@ -1,0 +1,104 @@
+
+ /*  footer */
+.bg-grey{
+ background-color:#3F8B41;
+}
+
+ /*  still useful? */
+
+.container {
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    margin: 20px;
+  }
+.container img {
+    flex: 0 0 auto;
+    width: auto;
+    height: 200px;
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  /*  logo */
+  .logo {
+    width: 30%;
+  }
+
+  /*  search bar */
+  .searchbar {
+    width: 300px;
+  }
+  
+
+   /*  map image */
+.mapimage {  
+    width: 100%;
+
+  /*  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    color: white;
+    font-family: 'Open Sans', 'Nunito', sans-serif;
+  }
+  .pin1 {
+      position: absolute;
+      width: 5px;
+      height: auto;
+      top: 5%;
+      left: 28%;
+    }
+  .pin2 {
+      position: absolute;
+      width: 5px;
+      height: auto;
+      top: 30%;
+      left: 50%; 
+     }
+
+    
+  .pincolor{
+    color: #3F8B41;
+  }
+  
+  
+  .map-wrapper {
+    width: 50%;
+    height: 60vh;
+    margin: 0 auto;
+    position: relative;
+  }
+  .map {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    background-image: url("map solo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: red;
+  }
+  .rpin {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 40px;
+    background: url('https://s33.postimg.cc/6d6a8b4yn/pin.png') no-repeat center center;
+    background-size: contain;
+    transform: translateX(-50%) translateY(0);
+    filter: brightness(1) contrast(1.1);
+    transition: all .3s ease;
+  }
+  .rpin:hover {
+    cursor: pointer;
+    transform: translateX(-40%) scale(1.05);
+  }
+  .code-distribution center 1 {
+    bottom: 55.9282%;
+    left: 65.5994%;
+  }
+  .code-distribution center 2 {
+    bottom: 89.858%;
+    left: 45.716%;   }
